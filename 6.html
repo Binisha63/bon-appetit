@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Order Now</title>
+        <style>
+            body{
+                background-color: black;
+            }
+            .one{
+                border:3px solid #f0e68c;
+                border-radius: 10px ;
+                padding:15px;
+                width:30%;
+                color:peachpuff;
+                margin-left: 5px; 
+                 
+            }
+            .two{
+                border:3px solid #f0e68c;
+                border-radius: 10px ;
+                padding:15px;
+                width:30%;
+                color:peachpuff;
+                margin-left: 15px;
+                 
+                
+            }
+
+            .four{
+                border:3px solid #f0e68c;
+                border-radius: 10px ;
+                padding:15px;
+                width:30%;
+                color:peachpuff;
+                margin-left: 15px; 
+                 
+
+            }
+            label{
+                font-size: larger;
+            }
+            
+
+            h1{
+                padding-top:1px;
+                font-size:30px;
+                display:flex;
+                align-items: center;
+                justify-content: center;
+                color:black;
+                border:3px solid #fffacd  ;
+                padding-left:3px;
+                background-color: #fffacd;
+                
+            }
+            h2, ol li{
+                color:#ffa089;
+                font-size: larger;
+                
+            }
+            input[type="text"], [type="date"], [type="submit"], [type="email"], [type="number"], [type="password"]{
+                padding:5px;
+                margin-bottom: 2px;
+                text-align: center;
+            }
+            
+
+            input[type="submit"]:hover{
+                background-color:#e3f988 ;
+                color:black;
+                padding: 10px;
+            }
+            
+            .options{
+                color:#ffcba4;
+                font-size: larger;
+            }
+            .main{
+                display: flex;
+                margin-top: 10px;
+            }
+            .home-icon {
+                position: absolute;
+                top: 15px;
+                right: 10px;
+            }
+            .home-icon img {
+                width: 50px;
+                height: 45px;
+            }
+
+
+        </style>
+    </head>
+    <body>
+        <div class="home-icon">
+            <a href="1.html">
+                <img src="home.jpg" alt="Home">
+            </a>
+        </div>
+        <div class="main">
+            <div class="one">
+        <form>
+
+        <h1>Membership</h1>
+        <h2><i>With membership you can get exclusive discounts and many more offers.</i></h2>
+            
+                First Name<br>
+                <input type="text" placeholder=" Enter your first name">
+                <br><br>
+                Last Name<br>
+                <input type="text" placeholder="Enter your last name">
+                <br><br>
+                <label for="Gender">Gender</label>
+                <input type="radio" name="Gender" value="Male"><label for= Male"> Male </label>
+                <input type="radio" name="Gender" id="Female"><label for= Female"> Female </label>
+                <input type="radio" name="Gender" id="Others"><label for= Others"> Others </label><br><br>
+                Date of Birth<br>
+                <input type="date"  placeholder="DD-MM-YYYY" required="required"><br><br>
+                Email<br>
+                <input type="email" placeholder="Enter your email"><br><br>
+                Phone Number<br>
+                <input type="number" placeholder="Enter your number"><br><br>
+                <label for="province">Province:</label>
+                 <select name="Province" id="Province">
+                 <option value="Koshi">Koshi</option>
+                 <option value="Madesh ">Madesh</option>
+                 <option value="Bagmati">Bagmati</option>
+                 <option value="Gandaki">Gandaki</option>
+                 <option value="Lumbini">Lumbini</option>
+                 <option value="Karnali">Karnali</option>
+                 <option value="Sudurpashchim">Sudurpashchim</option>
+                 </select><br><br>
+                 Address<br>
+                 <input type="text" placeholder="Enter your address"><br><br>
+                 <label for="photo">Photo:</label>
+                 <input type="file" name="Photo" id="Photo" placeholder="Upload file" required="required"><br><br>
+                  Password<br>
+                  <input type="password"  placeholder="Enter your password"><br><br>
+                  <input type="submit" value="Submit"><br>
+                 </form>
+            </div>
+        
+
+                
+                <div class="two">
+                 <form>
+                    <h1>Online Reservation</h1>
+                    <h4></h4>
+                    <input type="text" placeholder="Your Name">
+                    <input type="number" placeholder="Your Number">
+                   <br> <br><select>
+                        <option value="1 person">1 person</option>
+                        <option value="2 people">2 people</option>
+                        <option value="3 people">3 people</option>
+                        <option value="4 people">4 people</option>
+                        <option value="5 people">5 people</option>
+                        <option value="6 people">6 people</option>
+                        <option value="7+ people">7+ people</option>
+                        </select>
+                        <input type="date"  placeholder="DD-MM-YYYY" required="required">
+                        <input type="time" placeholder="Time" required="required"><br><br>
+                        <label for="description">Message</label><br>
+                        <textarea name="description" id="description" rows="4" cols="50">
+                         </textarea><br>
+                        <br> <input type="submit" value="Book A Table"><br>
+                 
+                        <br><h1>Home Delivery</h1>
+                        <label> Name  </label>
+                        <input type="text" placeholder="Your Name"><br><br>
+                        <label>Email </label>
+                        <input type="email" placeholder="Your Email"><br><br>
+                        <label>Number </label>
+                        <input type="number" placeholder="Your Number"><br><br>
+                        <label>Quantity</label>
+                        <input type="number" placeholder="Quantity"><br><br>
+                        <label>Your Order</label>
+                        <input type="text" placeholder="Food Items"><br><br>
+                        <label>Address</label>
+                        <input type="text" placeholder="Delivery Address"><br><br>
+                        <input type="submit" placeholder="Order Now"><br>
+
+                        
+                    </form>
+                 </div>
+                <div class="four">
+                 <form>
+                    <h1>Survey</h1>
+                    <ol>
+                    <li>Which of the following factors are important to you when choosing a restaurant?</li><br>
+                    <div class="options">
+                    <input type="checkbox" value="Quality of Food">Quality of Food<br>
+                    <input type="checkbox" value="Price">Price<br>
+                    <input type="checkbox" value="Location">Location<br>
+                    <input type="checkbox" value="Sevice">Service<br>
+                    <input type="checkbox" value="Ambience">Ambience<br>
+
+                   <br> <li>How did you hear about our restaurant?</li><br>
+                    <input type="checkbox" value="Social Media">Social Media<br>
+                    <input type="checkbox" value="Word of Mouth"> Word of Mouth<br>
+                    <input type="checkbox" value="Online Search">Online search<br>
+                    <input type="checkbox" value="Magazines">Magazines<br>
+                    <input type="checkbox" value="Posters">Posters<br>
+
+                    <br><li>Which of the following features did you like the most about our restaurant?</li><br>
+                    <input type="checkbox" value="Menu Variety">Menu Variety<br>
+                    <input type="checkbox" value="Price">Price<br>
+                    <input type="checkbox" value="Convenience">Convenience<br>
+                    <input type="checkbox" value="Environment">Environment<br>
+                    <input type="checkbox" value="Reputation">Reputation<br>
+                </form>
+                </div>
+
+                        
+
+
+                
+                </div>
+                 </div>
+
+
+
+
+            
+
+    </body>
+</html>

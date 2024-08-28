@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+}
+h1{
+    font-size:40px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color:black;
+    border:3px solid #fffacd  ;
+    padding-left:3px;
+    background-color: #fffacd;
+
+    
+}
+h2{
+    color:white;
+}
+p{
+    color:white;
+}
+.review_box{
+    width:50%;
+    float:left;
+    
+    
+    
+}
+.review_card{
+    width:550px;
+    height:450px;
+    box-shadow:0 2px 8px #ffcc33 ;
+    border-radius: 8px;
+    padding: 8px 20px;
+    margin:20px;
+  
+    
+}
+
